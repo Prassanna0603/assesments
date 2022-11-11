@@ -1,0 +1,169 @@
+/* table
+h1{
+    background-color: rgb(160, 17, 231);
+    color: rgb(240, 238, 234);
+    padding: 10px;
+    text-align: center;
+}
+
+table,tr,th,td
+{
+border:1px solid rgb(3, 3, 3);
+border-collapse:collapse;
+padding:25px;
+text-align: center;
+margin:auto;
+
+}
+th{
+    color: rgb(201, 28, 28);
+    background-color: antiquewhite;
+  
+}
+#fun{
+   color:rgb(167, 33, 207);
+   font-size: large;
+   
+
+}
+.sun{
+    font-style:italic;
+    text-align: center;
+    border:2px solid red;
+    padding: 10px;
+    margin: 20px;
+}
+
+/* pesudo class */
+
+/* a{
+   
+   font-size: 40px;
+ text-align: center;
+}
+a:visited{
+ color: rgb(136, 150, 150);
+}
+a:hover{
+  color: brown;
+  background-color: antiquewhite;
+}
+a:active{
+    color: rgb(41, 161, 91);
+}
+
+ */
+/* 
+body {
+   font-family: "Roboto", sans-serif;
+  background-color: rgb(128, 158, 147);
+  color: rgb(87, 64, 64);
+  text-align: center; 
+} */
+
+/* @media screen and (min-width:600px){
+ footer{
+    background-color: #00abfa;
+  }
+} */
+/* section, */
+aside,
+footer {
+  /* margin: 2px; */
+  padding: 20px;
+  border: 1px solid #918282;
+  text-align: center;
+  /* border-radius: 10px; */
+  font-style: bold;
+
+}
+footer{
+  height: 200px;
+  overflow:scroll ;
+}
+h1{
+  text-align: center;
+  padding: 3px;
+  color: #7a1111;
+}
+
+.flex-container {
+  display: flex;
+  /* height: auto; */
+  /* overflow:scroll; */
+  /* position: static; */
+
+}
+.menu{
+  height:auto;
+  background: #e0afaf;
+text-align: center;
+  /* Flex */
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #918282;
+}
+/* .fun{
+  overflow:scroll;  
+} */
+ .content {
+  background: #d9e5da;
+  flex-grow: 1;
+  height: 800px;
+  overflow:scroll;  
+ /* margin-top: 50px; */
+
+   
+}   
+.static{
+  background-color: #81acc0;
+  padding: 20px;
+  border: 2px solid #2d1f1f;
+  text-align: center;
+  color: #7a1111;
+ font-size: 20px;
+ 
+  /* margin-top: 20px; */
+  height:15px;
+  flex-grow: 1;
+   position: absolute; 
+   width: 900px;
+
+font-style: bold;
+
+
+
+} 
+
+aside {
+  
+  height:auto;
+  background: #e0afaf;
+text-align: center;
+  /* Flex */
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #918282;
+
+}
+
+.header {
+  background-color: #1879a6;
+  padding: 20px;
+  border: 1px solid #695b5b;
+  text-align: left;
+  /* border-radius: 10px; */
+  /* font-style: bold; */
+  height:15px;
+width: 100%;
+  position: fixed;
+  top: 2px;
+display: block;
+font-style: bold;
+
+}
+
+footer {
+  background-color: #878677;
+  overflow:scroll; 
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container {
+            background-color: aquamarine;
+            height: auto;
+            width: 300px;
+            /* text-align: center; */
+            display: flex;
+            padding: 50px;
+            margin: 20px;
+            /* justify-items: center; */
+            flex-direction: row;
+            flex-wrap: wrap-reverse;
+            justify-content:flex-end;
+            border-radius: 10px;
+      
+        }
+
+        .item {
+            background-color: aliceblue;
+            height: 50px;
+            width: 50px;
+            text-align: center;
+            padding: 30px;
+            border: 1px solid;
+            justify-content:space-around;
+           
+
+        }
+
+        .item1 {
+            background-color: rgb(206, 87, 101);
+           
+        }
+
+        .item2 {
+            background-color: rgb(51, 176, 145);
+        }
+
+        .item3 {
+            background-color: rgb(129, 139, 128);
+        }
+
+        .item4 {
+            background-color: rgb(109, 109, 202);
+        }
+
+        .item5 {
+            background-color: rgb(182, 76, 38);
+        }
+
+        .item6 {
+            background-color: rgb(215, 27, 168);
+        }
+        /* justify-content */
+        .space-around{
+            justify-content:space-evenly;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="flex-container">
+        <div class=" item item1">1</div>
+        <div class=" item item2">2</div>
+        <div class="item item3">3</div>
+        <div class=" item item4">4</div>
+        <div class=" item item5">5</div>
+        <div class=" item item6">6</div>
+       
+    </div>
+    <div class="flex-container space-around">
+        <div class=" item item1">1</div>
+        <div class=" item item2">2</div>
+        <div class="item item3">3</div>
+        <div class=" item item4">4</div>
+        <div class=" item item5">5</div>
+        <div class=" item item6">6</div>
+      </div>
+</body>
+
+</html>
